@@ -3,35 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Objekti : MonoBehaviour,
-	IBeginDragHandler, IDragHandler, IEndDragHandler {
-	public Objekti objektuSkripts;
-	private CanvasGroup kanvasGrupa;
-	private RectTransform velkObjRectTransf;
+public class Objekti : MonoBehaviour
+{
+	public GameObject atkritumuMasina;
+    public GameObject atraPalidziba;
+    public GameObject autobuss;
 
+	[HideInInspector]
+	public Vector2 atkrMKoord;
+	[HideInInspector]
+	public Vector2 atraPKoord;
+	[HideInInspector]
+	public Vector2 bussKoord;
 
-	void Start ()
-	{
-		kanvasGrupa= GetComponent<CanvasGroup>();
-		velkObjRectTransf= GetComponent<RectTransform>();
-	}
+	public Canvas kanva;
+	public AudioSource audioAvots;
+	public AudioClip[] skanasKoAtskanot;
 
+	[HideInInspector]
+	public bool vaiIstajaVieta = false;
+	public GameObject pedejaissVilktais = null;
 
-	public void OnBeginDrag(PointerEventData eventData)
-	{
-
-	}
-
-
-	public void OnDrag(PointerEventData eventData)
-	{
-
-	}
-
-	public void OnEndDrag(PointerEventData eventData)
-	{
-
-	}
-	
-
+	void Start() {
+		atkrMKoord = atkritumuMasina.GetComponent<RectTransform>().localPosition;
+        atraPKoord = atraPalidziba.GetComponent<RectTransform>().localPosition;
+        bussKoord = autobuss.GetComponent<RectTransform>().localPosition;
+    }
 }

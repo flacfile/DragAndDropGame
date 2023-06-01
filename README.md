@@ -3,11 +3,11 @@ Projekts
 
 
 ## Daramo darbu saraksts
-- [ ] Iespēja ar peles palidzību vilkts objektus
-- [ ] Iespēja objektu novietot brīvā vietā uz kartes
-- [ ] Iespēja objetut novietot nepareizaja laukumā
-- [ ] Iespeja objektu novietot pareizaja laukuma
-- [ ] Mainit objkta rotaciju uz Z
-- [ ] Mainit objekta platumu pa X
-- [ ] Mainit objekta platumu pa X
-- [ ] Audio efekti
+- [x] Iespēja ar peles palidzību vilkts objektus
+- [x] Iespēja objektu novietot brīvā vietā uz kartes
+- [x] Iespēja objetut novietot nepareizaja laukumā
+- [x] Iespeja objektu novietot pareizaja laukuma
+- [x] Mainit objkta rotaciju uz Z
+- [x] Mainit objekta platumu pa X
+- [x] Mainit objekta platumu pa X
+- [x] Audio efekti

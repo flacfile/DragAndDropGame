@@ -60,6 +60,35 @@ public class NomesanasVietaq : MonoBehaviour, IDropHandler {
                         case "buss":
                             obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[3]);
                             break;
+                        case "traktors5Car":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[4]);
+                            break;
+                        case "traktors1Car":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[5]);
+                            break;
+                        case "b2Car":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[6]);
+                            break;
+                        case "policijaCar":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[7]);
+                            break;
+                        case "EskavatorsCar":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[8]);
+                            break;
+                        case "e61Car":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[9]);
+                            break;
+                        case "cementa":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[10]);
+                            break;
+                        case "e46Car":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[11]);
+                            break;
+                        case "ugunsdzesej":
+                            obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[12]);
+                            break;
+
+
                     }
                 }
 
@@ -81,6 +110,43 @@ public class NomesanasVietaq : MonoBehaviour, IDropHandler {
                         obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
                          obejktuSkripts.bussKoord;
                         break;
+                    case "traktors5Car":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "traktors1Car":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "b2Car":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "policijaCar":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "EskavatorsCar":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "e61Car":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "cementa":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "e46Car":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+                    case "ugunsdzesej":
+                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.bussKoord;
+                        break;
+
                 }
             }
 		}

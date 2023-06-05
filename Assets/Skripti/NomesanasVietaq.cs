@@ -38,7 +38,7 @@ public class NomesanasVietaq : MonoBehaviour, IDropHandler {
 
 				if ((rotacijasStarpiba<=10 || 
 					(rotacijasStarpiba>= 354&& rotacijasStarpiba<=360))
-					&& (xIzmeruStarp<=0.1 && yIzmeruStarp <= 0.1)){
+					&& (xIzmeruStarp<=1 && yIzmeruStarp <= 1)){
 					obejktuSkripts.vaiIstajaVieta = true;
 					eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition=
 						GetComponent<RectTransform>().anchoredPosition;
@@ -111,40 +111,40 @@ public class NomesanasVietaq : MonoBehaviour, IDropHandler {
                          obejktuSkripts.bussKoord;
                         break;
                     case "traktors5Car":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.traktors5.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.trakt5Koord;
                         break;
                     case "traktors1Car":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.traktors1.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.trakt1Koord;
                         break;
                     case "b2Car":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.b2.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.b2Koord;
                         break;
                     case "policijaCar":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.policija.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.policKoord;
                         break;
                     case "EskavatorsCar":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.eskavators.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.eskavatKoord;
                         break;
                     case "e61Car":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.e61.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.e61Koord;
                         break;
                     case "cementa":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.cementamasina.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.cementKoord;
                         break;
                     case "e46Car":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.e46.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.e46Koord;
                         break;
                     case "ugunsdzesej":
-                        obejktuSkripts.autobuss.GetComponent<RectTransform>().localPosition =
-                         obejktuSkripts.bussKoord;
+                        obejktuSkripts.ugunsdzeseji.GetComponent<RectTransform>().localPosition =
+                         obejktuSkripts.ugunsdzesKoord;
                         break;
 
                 }

@@ -38,7 +38,7 @@ public class NomesanasVietaq : MonoBehaviour, IDropHandler {
 
 				if ((rotacijasStarpiba<=10 || 
 					(rotacijasStarpiba>= 354&& rotacijasStarpiba<=360))
-					&& (xIzmeruStarp<=1 && yIzmeruStarp <= 1)){
+					&& (xIzmeruStarp<=0.2 && yIzmeruStarp <= 0.2)){
 					obejktuSkripts.vaiIstajaVieta = true;
 					eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition=
 						GetComponent<RectTransform>().anchoredPosition;

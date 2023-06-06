@@ -49,7 +49,13 @@ public class NomesanasVietaq : MonoBehaviour, IDropHandler {
 				eventData.pointerDrag.GetComponent<RectTransform>().localScale=
 						GetComponent<RectTransform>().localScale;
 
-					switch (eventData.pointerDrag.tag)
+                    obejktuSkripts.masinuSk++;
+                    obejktuSkripts.vaiVisasMasinasSaliktas();
+
+
+
+
+                    switch (eventData.pointerDrag.tag)
 					{
 						case "atkritumi":
 							obejktuSkripts.audioAvots.PlayOneShot(obejktuSkripts.skanasKoAtskanot[1]);

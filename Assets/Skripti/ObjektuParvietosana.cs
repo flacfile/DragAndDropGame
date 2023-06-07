@@ -50,7 +50,7 @@ public class ObjektuParvietosana : MonoBehaviour
                 if (objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().localScale.x >= 0.3f)
                 {
                     objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale =
-                    new Vector2(objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale.x-0.001f,
+                    new Vector2(objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale.x-0.003f,
                     objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale.y);
 
                 }
@@ -61,7 +61,7 @@ public class ObjektuParvietosana : MonoBehaviour
                 if (objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().localScale.x <= 0.9f)
                 {
                     objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale =
-                    new Vector2(objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale.x + 0.001f,
+                    new Vector2(objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale.x + 0.003f,
                     objektuSkripts.pedejaissVilktais.GetComponent<RectTransform>().transform.localScale.y);
 
                 }
